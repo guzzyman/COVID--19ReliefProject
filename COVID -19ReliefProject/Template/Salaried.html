@@ -1,0 +1,709 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Uniocde -->
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <![endif]-->
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Pgae Description -->
+    <meta name="description" content="Appcraft portfolio Template">
+    <!-- Page Kewords -->
+    <meta name="keywords" content="Appcraft">
+    <!-- Site Author -->
+    <meta name="author" content="Appcraft">
+    <!-- Title -->
+    <title>Contact | Appcraft</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css" type="text/css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/font-awesome.min.css">
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css">
+    <!-- CSS Animate -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body class="scheme2">
+    <!-- Section Preloader -->
+    <div id="section-preloader">
+        <div class="boxes">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <p>LOADING . . .</p>
+    </div>
+    <!-- /.Section Preloader -->
+    <!-- Section Navbar -->
+    <nav class="navbar-1 navigationscheme navbar navbar-expand-lg">
+        <div class="container navbar-container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Appcraft"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown-submenu dropdown">
+                        <a class="dropdown-item dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html" class="dropdown-item">Homepage 1</a></li>
+                            <li><a href="Homepage-2.html" class="dropdown-item">Homepage 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-features1" class="nav-link scroll-down">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-pricing1" class="nav-link scroll-down">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown-submenu dropdown">
+                        <a class="dropdown-item dropdown-toggle nav-link" href="#" role="button" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            News
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Blog-List.html" class="dropdown-item">Blog List</a></li>
+                            <li><a href="Blog-Detail.html" class="dropdown-item">Blog Detail</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="btn-1 shadow1 style3 bgscheme">START FREE TRIAL</a>
+            <button type="button" id="sidebarCollapse" class="navbar-toggler active" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- container -->
+    </nav>
+    <!-- /.Section Navbar -->
+    <!-- Section Subheader 1 -->
+    <div id="section-subheader1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="clscheme">Blog</h3>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li class="current"><a href="#">USER</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Section Subheader 1 -->
+    <!-- Section Contact 1 -->
+    <div id="section-contact1">
+        <div class="container">
+            <div class="row">
+                <div class="left ez-animate col-12 col-md-12" data-animation="fadeInLeft">
+                    <form id="app" action="#">
+                        <span v-for="e in errors">{{ e }}</span>
+                        <!--<div class="row" id="BVNInformation" v-if="step == 20">
+                            <div class="col-md-12" style="margin-top:20px; margin-bottom:20px;">
+                                <h2>BVN Information</h2>
+                                <hr style="padding: 5px !important;" />
+                            </div>
+                            <div class="right ez-animate col-12 col-md-12" data-animation="fadeInRight">
+                                <h3>Why my BVN Information?</h3>
+                                <ol>
+                                    <li>We need your BVN Info for information accuracy</li>
+                                    <li>FGN Covid-19 stimulus funds disbursement</li>
+                                </ol>
+                            </div>
+                            <div class="form-group col-sm-12 col-md-12">
+                                <input type="text" class="form-control" v-model="user.bvn" name="bvn"
+                                    placeholder="Your BVN Number" required="">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <button type="submit" class="shadow1 style3 bgscheme" @click.prevent="nextStep">VALIDATE
+                                </button>
+                            </div>
+                        </div> -->
+
+                        <div class="row" id="PersonalInformation" v-if="step == 1">
+                            <div class="col-md-12" style="margin-top:20px; margin-bottom:20px;">
+                                <h2>Personal Information</h2>
+                                <hr style="padding: 5px !important;" />
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="text" class="form-control" v-model="user.lastName" name="lastName"
+                                       placeholder="Last Name" required="">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="text" class="form-control" v-model="user.firstName" name="firstName"
+                                       placeholder="First Name" required="">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="text" class="form-control" v-model="user.middleName" name="middleName"
+                                       placeholder="Other Names" required="">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="phone" class="form-control" v-model="user.phoneNumber" name="phoneNumber"
+                                       placeholder="Active Phone Number" required="">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="email" class="form-control" v-model="user.email" name="email"
+                                       placeholder="Active Email" required="">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <select class="form-control" name="bankId" id="bankId">
+                                    <option selected>Select Bank</option>
+                                    <option value="1">Bank 1</option>
+                                    <option value="2">Bank 2</option>
+                                    <option value="3">Bank 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="text" class="form-control" v-model="user.accountNumber"
+                                       name="accountNumber" placeholder="Account Number" required="">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <select class="form-control" name="stateId" id="stateId">
+                                    <option selected>Select State</option>
+                                    <option value="1">State 1</option>
+                                    <option value="2">State 2</option>
+                                    <option value="3">State 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <select class="form-control" name="identityDocumentType"
+                                        v-model="user.identityDocumentType" id="identityDocumentType">
+                                    <option selected>Type Of Identity Document</option>
+                                    <option value="Type Of Identity Document 1">Type Of Identity Document 1</option>
+                                    <option value="Type Of Identity Document 2">Type Of Identity Document 2</option>
+                                    <option value="Type Of Identity Document 3">Type Of Identity Document 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="text" class="form-control" v-model="user.documentIdNumber" name="IDNumber"
+                                       placeholder="Your ID Number" required="">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <input type="text" class="form-control" v-model="user.spouseUniqueNumber"
+                                       name="spouseUniqueNumber" placeholder="Spouse Unique Number" required="">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <!--<button type="submit" class="shadow1 style3 bgscheme"
+                                    @click.prevent="prevStep">PREVIOUS</button> -->
+                                <button type="submit" class="shadow1 style3 bgscheme"
+                                        @click.prevent="nextStep">
+                                    NEXT
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row" id="EmploymentInformation" v-if="step == 2">
+                            <div class="col-md-12" style="margin-top:20px; margin-bottom:20px;">
+                                <h2>Employment Information</h2>
+                                <hr style="padding: 5px !important;" />
+                            </div>
+                            <div class="form-group col-sm-12 col-md-4">
+                                <select class="form-control" name="IsEmploymentStatus" v-model="IsEmploymentStatus"
+                                        id="IsEmploymentStatus">
+                                    <option selected>Are you currently employed?</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="row" style="padding:15px !important;" id="salaryWorkersDetails"
+                                 v-if="IsEmploymentStatus == 'Yes'">
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.activeEmail" name="activeEmail"
+                                           placeholder="Active Email" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.activePhoneNumber" name="activePhoneNumber"
+                                           placeholder="Active PhoneNumber" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <select class="form-control" name="areYouCurrentlyInEmployment"
+                                            id="areYouCurrentlyInEmployment">
+                                        <option selected>Are you currently in employment?</option>
+                                        <option value="true">Yes</option>
+                                        <option value="false">No</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.employerName" name="employerName"
+                                           placeholder="Employer Name" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.employerIndustry" name="employerIndustry"
+                                           placeholder="Employer Industry" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.employerRcNoOrBrNo" name="employerRcNoOrBrNo"
+                                           placeholder="EmployerRcNo Or BrNo" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.dateOfEmployment" name="dateOfEmployment"
+                                           placeholder="Date of employment" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.dateOfLeaving" name="dateOfLeaving"
+                                           placeholder="Date of leaving" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="salaryWorkers.avgMonthlySalaryForSixMonths"
+                                           name="avgMonthlySalaryForSixMonths" placeholder="Avg. 6 months salary"
+                                           required="">
+                                </div>
+                            </div>
+                            <div class="row" style="padding:15px !important;" id="selfEmployedWorkersDetails"
+                                 v-if="IsEmploymentStatus == 'No'">
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.activeResidentialAddress"
+                                           name="activeResidentialAddress" placeholder="Active residential address"
+                                           required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.activePhoneNumber"
+                                           name="activePhoneNumber" placeholder="Active phone number" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.nameOfBusiness" name="nameOfBusiness"
+                                           placeholder="Name of business" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.industry" name="industry"
+                                           placeholder="Industry" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.businessDescription"
+                                           name="businessDescription" placeholder="Business description" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.businessRcNoOrBrNo"
+                                           name="businessRcNoOrBrNo" placeholder="Business RcNo Or BrNo" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <select class="form-control" name="ownBusinessAlone" id="ownBusinessAlone">
+                                        <option selected>Own business alone?</option>
+                                        <option value="true">Yes</option>
+                                        <option value="false">No</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <select class="form-control" name="businessStillOperational"
+                                            id="businessStillOperational">
+                                        <option selected>Own business alone?</option>
+                                        <option value="true">Yes</option>
+                                        <option value="false">No</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.startDateOfBusiness"
+                                           name="startDateOfBusiness" placeholder="Start date of business" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.closeDateOfBusiness"
+                                           name="closeDateOfBusiness" placeholder="Date closeDateOfBusiness" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.dateOfLeaving" name="dateOfLeaving"
+                                           placeholder="Date dateOfLeaving" required="">
+                                </div>
+                                <div class="form-group col-sm-12 col-md-4">
+                                    <input type="text" class="form-control"
+                                           v-model="selfEmployedWorkers.avgMonthlySalaryForSixMonths"
+                                           name="avgMonthlySalaryForSixMonths"
+                                           placeholder="Avg. 6 avgMonthlySalaryForSixMonths" required="">
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <button type="submit" class="shadow1 style3 bgscheme"
+                                        @click.prevent="prevStep">
+                                    PREVIOUS
+                                </button>
+                                <button type="submit" class="shadow1 style3 bgscheme"
+                                        @click.prevent="submitDetails">
+                                    NEXT
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row" id="IndemnityAgreement" v-if="step == 3">
+                            <div class="col-md-12" style="margin-top:20px; margin-bottom:20px;">
+                                <h2>Indemnity Agreement</h2>
+                                <hr style="padding: 5px !important;" />
+                            </div>
+                            <div class="right ez-animate col-12 col-md-12" data-animation="fadeInRight">
+                                <h3>Kindly read the below carefully and proceed when done</h3>
+                                <p>
+                                <p>
+                                    Praesent dapibus is not eleifend augue eget sollicitudin velit malesuada liquam
+                                    les blandit diam ace venenatis feugiat tellus odio. Lorem Ipsum is simply dummy
+                                    text of the rinting typesetting industry has been the ndustry standard dummy
+                                    text ever sincer they llam id condimentum purus In non ex at ligula fringilla
+                                    bortis. Ut et mauris auctor, aliquet nulla sed, aliquam mauris. Vestibulum sed
+                                    malesuada dolor. Integer fringilla odio a dolor aliqu eu euismod lectus
+                                    porttitor. Proin et libero nec eros eleifend commodo Phasellus sodales des
+                                    volutpat diam id sagittis purus egestas dapibus. Donec bibendum est quis mi
+                                    commodo blandit. Maecenas pellentesque, massa vitae faucibus consectetur, ante
+                                    magna gravida magna, ut venenatis massa augue et odio. Aliquam luctus viverra
+                                    velit, non euismod ligula congue sed.
+                                    <br><br>
+                                    Mauris nunc leo, sollicitudin a ligula ut, iaculis bibendum lorem. Duis gravida
+                                    suscipit purus, at consequat de diam sagittis sit amet. Mauris sed nisl vel urna
+                                    egestas elementum eget quis ipsum. Nulla a enim et justoed facilisis ornare. Sed
+                                    ante sem, dignissim a vehicula et, rutrum volutpat turpis. Praesent id leo
+                                    lacinia lesuada tortor ut, lobortis leo. Cras eget sollicitudin lorem. Etiam
+                                    commodo ultricies luctus. Integer porttitor ligula eget quam blandit finibus.
+                                    Suspendisse potenti. Nulla blandit augue
+                                </p>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <button type="submit" class="shadow1 style3 bgscheme"
+                                        @click.prevent="sendVerificationLink">
+                                    PROCEED
+                                </button>
+                                <button type="submit" class="shadow1 style3 bgscheme"
+                                        @click.prevent="endApplication">
+                                    CANCEL
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row" id="ThankyouPage" v-if="step == 0">
+                            <div class="col-md-12" style="margin-top:20px; margin-bottom:20px;">
+                                <h2>Final Step</h2>
+                                <hr style="padding: 5px !important;" />
+                            </div>
+                            <div class="right ez-animate col-12 col-md-12" data-animation="fadeInRight">
+                                <h3>Thank you for taking out time to fill this form</h3>
+                                <p>
+                                <p>
+                                    Should you decide to key into the Covid-19 stimulus package, you may logon into
+                                    your profile to continue. Kindly remember your safety and the safety of others
+                                    in whatever you do. <br><strong>#StayHome, #KeepSocialDistance</strong>.
+                                </p>
+                            </div>
+                            <!-- 							<div class="form-group col-md-12">
+                                <button type="submit" class="shadow1 style3 bgscheme"
+                                    @click.prevent="sendVerificationLink">PROCEED</button>
+                                <button type="submit" class="shadow1 style3 bgscheme" @click.prevent="endApplication">CANCEL</button>
+                            </div> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Section Contact 1 -->
+    <!-- Section Footer -->
+    <div id="section-footer">
+        <div class="container">
+            <div class="footer-widget">
+                <div class="row">
+                    <div class="left col-md-6">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="Appcraft"></a>
+                    </div>
+                    <div class="right col-md-6">
+                        <div class="social-links">
+                            <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-behance fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright container-fluid ">
+            <div class="col-12">
+                <p>© 2019 Copyrights <a href="https://themeforest.net/user/puricreative/portfolio">PuriCreative</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- /.Section Footer -->
+    <!-- Javascript Files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Swiper Slider -->
+    <script src="assets/js/swiper.min.js"></script>
+    <!-- OWL Carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Waypoint -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Easy Waypoint -->
+    <script src="assets/js/easy-waypoint-animate.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/scripts.js"></script>
+    <!-- Carousel Features 1 -->
+    <script src="assets/js/carousel-features1.js"></script>
+    <!-- Carousel App Screen 1 -->
+    <script src="assets/js/carousel-appscreen1.js"></script>
+    <!-- Carousel Testimonial 1 -->
+    <script src="assets/js/carousel-testimonial1.js"></script>
+    <!--  VUE JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script>
+        const App = new Vue({
+
+            el: "#app",
+            data: {
+                step: 1,
+                totalSteps: 3,
+                errors: null,
+                IsEmploymentStatus: null,
+                thankyouStep: 0,
+                salaryWorkers: {
+                    salaryWorkersDetaildId: 0,
+                    userId: 0,
+                    activeEmail: null,
+                    activePhoneNumber: null,
+                    areYouCurrentlyInEmployment: null,
+                    employerName: null,
+                    employerIndustry: null,
+                    employerRcNoOrBrNo: null,
+                    dateOfEmployment: null,
+                    dateOfLeaving: null,
+                    avgMonthlySalaryForSixMonths: null,
+                    createdOn: null
+                },
+                selfEmployedWorkers: {
+                    selfEmployedWorkersDetailsId: 0,
+                    userId: 0,
+                    activeResidentialAddress: null,
+                    activePhoneNumber: null,
+                    nameOfBusiness: null,
+                    industry: null,
+                    businessDescription: null,
+                    businessRcNoOrBrNo: null,
+                    ownBusinessAlone: null,
+                    businessStillOperational: null,
+                    startDateOfBusiness: null,
+                    closeDateOfBusiness: null,
+                    dateOfLeaving: null,
+                    avgMonthlySalaryForSixMonths: null,
+                    createdOn: null
+                },
+                bvnDetail: {
+                    bvndetailsId: 0,
+                    userId: 0,
+                    firstName: null,
+                    middleName: null,
+                    lastName: null,
+                    dateOfBirth: null,
+                    registrationDate: null,
+                    enrollmentBank: null,
+                    email: null,
+                    phoneNumber: null,
+                    gender: null,
+                    lgaofOrigin: null,
+                    lgaofResidence: null,
+                    nationality: null,
+                    phoneNumberAlt: null,
+                    residentialAddress: null,
+                    stateOfOrigin: null,
+                    stateOfResidence: null,
+                    watchListed: null,
+                    createdOn: null
+                },
+                user: {
+                    firstName: null,
+                    middleName: null,
+                    lastName: null,
+                    bvn: null,
+                    bvnIsValidated: true,
+                    email: null,
+                    emailIsValidated: true,
+                    phoneNumber: null,
+                    phoneNumberIsValidated: true,
+                    accountNumber: null,
+                    accountNumberIsValidated: true,
+                    bankId: null,
+                    stateId: null,
+                    createdOn: null,
+                    createdBy: null,
+                    identityDocumentType: null,
+                    documentIdNumber: null,
+                    spouseUniqueNumber: 0,
+                    bvndetails: [],
+                    salaryWorkersDetails: [],
+                    selfEmployedWorkersDetails: [],
+                }
+            },
+            methods: {
+                nextStep: function () {
+                    if (this.step == 1) {
+                        // if (!this.user.bvn) {
+                        // 	this.errors = "The BVN field cannot be empty!";
+                        // 	return false;
+                        // }
+                        // this.errors = null;
+                        if (!this.user.lastName) {
+                            this.errors = "The Last name field cannot be empty!";
+                            return false;
+                        }
+                        if (!this.user.firstName) {
+                            this.errors = "The First name field cannot be empty!";
+                            return false;
+                        }
+                        if (!this.user.middleName) {
+                            this.errors = "The Middle name field cannot be empty!";
+                            return false;
+                        }
+                        if (!this.user.phoneNumber) {
+                            this.errors = "The Phone number field cannot be empty!";
+                            return false;
+                        }
+                        if (!this.user.email) {
+                            this.errors = "The Email field cannot be empty!";
+                            return false;
+                        }
+                        // if (!this.user.bankId) {
+                        //   this.errors = "Kindly select your bank!";
+                        //   return false;
+                        // }
+                        if (!this.user.accountNumber) {
+                            this.errors = "The Account number field cannot be empty!";
+                            return false;
+                        }
+                        // if (!this.user.stateId) {
+                        //   this.errors = "Kindly select your current state of residence!";
+                        //   return false;
+                        // }
+                        if (!this.user.identityDocumentType) {
+                            this.errors = "Your Identity DocumentType field cannot be empty!";
+                            return false;
+                        }
+                        if (!this.user.documentIdNumber) {
+                            this.errors = "Your DocumentId Number field cannot be empty!";
+                            return false;
+                        }
+                        if (!this.user.spouseUniqueNumber) {
+                            this.errors = "Your Spouse Unique Number field cannot be empty!";
+                            return false;
+                        }
+                    } else if (this.step == 2) {
+                        // Some validation for step 2 here
+
+                    } else if (this.step == 3) {
+                        return false;
+                    }
+                    this.step++;
+                },
+                prevStep: function () {
+                    this.step--;
+                },
+                submitDetails: function () {
+                    //  Get the data dependents for SalaryWorkersDetails and SelfEmployedWorkerDetails
+                    let s = this.salaryWorkers;
+                    console.log(JSON.stringify(s));
+                    let e = this.selfEmployedWorkers;
+                    console.log(JSON.stringify(e));
+                    console.log(this.IsEmploymentStatus);
+
+                    // Prepare the data that needs to be submitted.
+                    if (this.IsEmploymentStatus == true) {
+                        this.user.salaryWorkersDetails = [];
+                        this.user.salaryWorkersDetails.push(s);                        
+                    } else {
+                        this.user.selfEmployedWorkersDetails = [];
+                        this.user.selfEmployedWorkersDetails.push(e);
+                    }
+
+                    // Get the base API URI
+                    let baseUrl = "https://crisisreliefapi.azurewebsites.net/api/Users/CreateUser";
+
+                    console.log(this.user);
+                    // Make Ajax call here
+                    alert('Form Submitted Successfully!');
+                    $.ajax({
+                        url: baseUrl,
+                        type: 'POST',
+                        data: this.user,
+                        success: function (response) {
+                            debugger
+                            console.log(response);
+                            // if (response.Result == "OK") {
+
+                            // }
+                            // else {
+                            // }
+                        },
+                        error: function (returnval) {
+                            console.log("Na error be this o...!!!");
+                        }
+                    });
+
+                    this.step++;
+                },
+                sendVerificationLink: function () {
+                    // Make ajax call to send the verification link to the user email provided.
+                    alert("Send verification link. The API to call is needed for this also with an email template!");
+                },
+                endApplication: function () {
+                    this.step = 0;
+                }
+            },
+            mounted() {
+                alert('Yes!');
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
